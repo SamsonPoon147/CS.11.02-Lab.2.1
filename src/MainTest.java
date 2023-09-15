@@ -33,7 +33,7 @@ class MainTest {
 
     @org.junit.jupiter.api.Test
     void half() {
-        assertEquals(9.5, Main.half(19));
+        assertEquals(9.5, Main.half(19.0));
     }
 
     @org.junit.jupiter.api.Test
