@@ -50,7 +50,7 @@ public class Main {
     public static String triple(String o) {return o + o + o;}
     public static Double half(Double i) {return i/2.0;}
     public static int roundPositiveValueToNearestInteger(double value) {return (int) Math.round(value);}
-    public static int roundNegativeValueToNearestInteger(double value) {return (int) Math.round(value);}
+    public static int roundNegativeValueToNearestInteger(double value) {return (int) -Math.round(-value);}
 
 
 }

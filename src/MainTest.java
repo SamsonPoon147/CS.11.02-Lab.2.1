@@ -55,6 +55,4 @@ class MainTest {
     void roundNegativeValueToNearestIntegerTwo() {
         assertEquals(-9, Main.roundNegativeValueToNearestInteger(-8.5));
     }
-
-
 }
