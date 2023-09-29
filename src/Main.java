@@ -48,7 +48,7 @@ public class Main {
     public static String morningGreeting(String name) {return "早上好, " + name + "!";}
     public static String afternoonGreeting(String name1) {return "下午好, " + name1 + "!";}
     public static String triple(String o) {return o + o + o;}
-    public static Double half(Double i) {return i/2.0;}
+    public static double half(double i) {return i/2.0;}
     public static int roundPositiveValueToNearestInteger(double value) {return (int) Math.round(value);}
     public static int roundNegativeValueToNearestInteger(double value) {return (int) -Math.round(-value);}
 
